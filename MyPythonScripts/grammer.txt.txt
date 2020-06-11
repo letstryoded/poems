@@ -1,0 +1,29 @@
+{'a':42} - dict
+[] - list
+() - tuple
+
+spam = {}
+spam.setdefault('a', 42)
+
+import pprint
+pprint.pprint
+
+'''fdfd
+fdfdfd
+fdfd'''   ---> multiline string
+
+
+STRING
+spam = 'hello'  
+spam[:] - duplicate
+'ll' in spam
+'ll' not in spam
+upper() lower() isupper() islower() isalpha() isalnum() isdecimal() isspace() istitle()
+startswith() endswith()
+
+spam = ', '
+spam.join(['cats', 'rats']) -- 'cats, rats'
+.split('m')  .split('\n')  - default delimiter is ','
+'Hello'.ljust(20,	'=')  -- Hello===============
+'Hello'.center(20,	'=')  -- =======Hello========
+.strip() .lstrip() .rstrip() - remove white spaces  .strip('das') -- remove this string
